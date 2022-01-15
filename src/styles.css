@@ -33,10 +33,12 @@ h2,
 h3 {
   color: #231d3c;
 }
-a {
+#celcius,
+#farenheit {
   text-decoration: none;
   color: #231d3c;
 }
+
 h1 {
   margin-bottom: 0 auto;
 }
@@ -138,8 +140,21 @@ hr {
   padding: 20px;
 }
 
-.Location {
+#Location {
   display: block;
-  margin: 0 auto;
+  margin-left: 320px;
+  margin-bottom: 20px;
   padding: 20px, 20px;
+  box-shadow: 18px 10px;
+  background-color: #f0ac0f;
+}
+
+#open-source {
+  color: #ed0173;
+  text-decoration: underline;
+}
+.code {
+  font-size: 12px;
+  text-align: right;
+  color: #ed0173;
 }

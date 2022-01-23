@@ -33,10 +33,13 @@ h2,
 h3 {
   color: #231d3c;
 }
-#celcius,
-#farenheit {
+#celcius {
   text-decoration: none;
   color: #231d3c;
+}
+
+#farenheit {
+  color: #004d97;
 }
 
 h1 {
@@ -151,6 +154,7 @@ hr {
 
 #open-source {
   text-decoration: underline;
+  color: #004d97;
 }
 .code {
   font-size: 12px;

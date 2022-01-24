@@ -33,13 +33,15 @@ h2,
 h3 {
   color: #231d3c;
 }
-#celcius {
+
+.weather-temp .active {
   text-decoration: none;
   color: #231d3c;
 }
 
-#farenheit {
-  color: #004d97;
+.weather-temp .active:hover {
+  text-decoration: none;
+  cursor: default;
 }
 
 h1 {
